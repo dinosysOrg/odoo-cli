@@ -1,0 +1,33 @@
+{
+  "name": "odoo-cli",
+  "description": "Odoo command line tools",
+  "keywords": [
+    "odoo",
+    "cli",
+    "command line",
+    "tools",
+    "rpc",
+    "json",
+    "client",
+    "node"
+  ],
+  "version": "1.0.0",
+  "preferGlobal": false,
+  "author": "Toan Tran <toan.tran@dinosys.vn> (https://github.com/toantraz)",
+  "contributors": [],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dinosysOrg/odoo-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dinosysOrg/odoo-cli/issues"
+  },
+  "dependencies": {
+    "commander": "^2.11.0",
+    "odoo-api": "https://github.com/dinosysOrg/odoo-api"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
+}
